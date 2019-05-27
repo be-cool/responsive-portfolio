@@ -1,0 +1,93 @@
+* {
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    overflow: auto;
+}
+
+body {
+    background-image: url("../images/memphis-mini-dark.png");
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.tab {
+    float: right;
+    margin-top: -25px;
+    margin-right: 232px;
+    text-align: center;
+    height: 75px;
+}
+
+.tablinks {
+    padding: 5;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    background: none;
+    margin-top: 50px;
+}
+
+.tablinks:hover {
+    background-color: goldenrod;
+}
+
+.header{
+    float: left;
+    background-color:#ffffff;
+    z-index: 2;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
+.myname {
+    float: left;
+    width: 180px;
+    height: 60px;
+    background-color: #4aaaa5;
+    text-align: center;
+    margin-left: 232px;
+    color: whitesmoke;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+.title {
+    border-bottom: #666666 4px solid;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    text-decoration-color: #4aaaa5;
+}
+
+.main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+
+footer {
+    text-align: center;
+    /* margin-top: 50px; */
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    height: 20px;
+    width: 100%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 25px;
+    padding-bottom: 1px;
+    font-size: 10px;
+    color: whitesmoke;
+}
+
+h2 {
+    border: #666666;
+    text-decoration-color: #ffffff
+}

@@ -1,0 +1,25 @@
+.title {
+    margin-left: 10px;
+}
+.profile-pic {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#p-one {
+    /* float: left; */
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 1.5;
+    margin-top: 35px;
+}
+#p-two {
+    float: left;
+    margin-left: 10px;
+    line-height: 1.5;
+}
+#p-three {
+    float: left;
+    margin-left: 10px;
+    line-height: 1.5;
+}

@@ -1,46 +1,58 @@
-<!doctype html>
-<html lang="en-us">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>About | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework 1</title>
+    <link rel="stylesheet" href="assets/css/style_all_pages.css">
+    <link rel="stylesheet" href="assets/css/style_index.css">
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+                <div>
+                    <!-- trying to use this box to fill in the space to the left of where my name should be -->
+                    <!-- need to make a bigger container so that it can contain all of these divs within it to styalize it better and within one bar
+                    as of right now, they are on two different lines because they arent in that bigger, encompassing div -->
+                    <box class="header"> 
+                        <box class="myname">
+                            <h3>Ben Cooley</h3>
+                        </box>
+                        <!-- still need to figure out how to make the buttons not buttons, but on the tab -->
+                        <div class="tab">
+                            <button class="tablinks" onclick= "window.location.href = 'index.html'">About</button>
+                            <button class="tablinks" onclick= "window.location.href = 'portfolio.html'">Portfolio</button>
+                            <button class="tablinks" onclick= "window.location.href = 'contact.html'">Contact</button>
+                        </div>
+                    </box>
+                </div>
+
+    <div class="main">
+        <!-- trying to make another box for the text and image section in middle of page here -->
+        <box>
+            <h2 class="title">About Me</h2>
+                <!-- <hr> -->
+                <img class="profile-pic" src= "assets/images/profile picture.jpeg" alt= "Ben Cooley">
+                    <p id="p-one"> 
+                        Welcome to my page! My name is Ben and I am a student at the Penn LPS Coding Bootcamp. I am new to coding, but am extremely excited to push myself throughout the course.
+                        I grew up in Abington, PA and currently live in the Fairmount area of Philadelphia. I attended the University of Pennsylvania and graduated in 2015 as a Cognitive Science Major.  
+                        Before enrolling in this course I spent my time in a few different jobs including with the 76ers organization, Northwestern Mutual and as a professional caddie on the Web.com Golf Tour.
+                        I am pumped for all of the opportunities and new career paths that this course will open up for me!
+                    </p>
+                    <p id="p-two">
+                        Although I am spending a lot of my free time focusing on this course, I am also very passionate about the game of golf - I still play a number of tournaments, when my schedule allows.
+                        While golf is the one sport I spend my time actually playing, I also spend a lot of time watching most sports. I have always been, and remain, a huge Philadelphia sports fan. Go Sixers!
+                        Another thing I am passionate about is pets - there was a brief time I thought about going to veterinary school. I spent a summer interning for the Penn Vet Working Dog Center -- in this very Pennovation Facility!!
+                    </p>
+                    <p id="p-three">
+                        Well that's enough about me - now I need to focus on the material so I can improve with all of this.
+                    </p>
+        </box>
+
+        <!-- <hr> -->
+        <footer>copyright</footer>
     </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
-
-      <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
-
-      <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-
-    </section>
-
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy; 
-    </div>
-  </footer>
 </body>
 
 </html>
