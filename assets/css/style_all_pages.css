@@ -91,3 +91,27 @@ h2 {
     border: #666666;
     text-decoration-color: #ffffff
 }
+
+@media screen and (max-width: 980px) {
+    .main {
+        width: 700px;
+        margin-right: 5%;
+        margin-left: 5%;
+        float: left;
+    }
+    .myname {
+        margin-left: 8%;
+    }
+    .tab {
+        margin-right: 8%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
