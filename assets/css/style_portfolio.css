@@ -73,19 +73,25 @@ input{
 
 @media screen and (max-width: 768px) {
     .pic1 {
-        margin-left: 10%;
+        margin-left: 6.5%;
     }
     .pic2 {
-        margin-right: 10%;
+        margin-right: 6.5%;
     }
     .pic3 {
-        margin-left: 10%;
+        margin-left: 6.5%;
     }
     .pic4 {
-        margin-right: 10%;
+        margin-right: 6.5%;
     }
     .pic5 {
-        margin-left: 10%;
+        margin-left: 6.5%;
     }
 
+}
+
+@media screen and (max-width: 640px) {
+    .pics {
+        width: 50%;
+    }
 }

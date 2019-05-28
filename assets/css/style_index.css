@@ -23,3 +23,12 @@
     margin-left: 10px;
     line-height: 1.5;
 }
+
+@media screen and (max-width: 640px) {
+    .profile-pic{
+        width: 96%;
+    }
+    #p-one {
+        float: left;
+    }
+}
