@@ -23,23 +23,23 @@ h6 {
     width: 250px; */
 }
 
-.pic1{
+.wggPic{
     float: left;
     margin-left: 5%;
     margin-bottom: 35px;
     margin-right: 4%;
 }
-.pic1:hover{
+.wggPic:hover{
     opacity: 0.7;
 }
-.pic2{
+.rpgPic{
     float: left;
     margin-right: 5%;
     margin-left: 20px;
     margin-bottom: 35px;
     height: 250px;
 }
-.pic2:hover{
+.rpgPic:hover{
     opacity: 0.7;
 }
 .pic3{
