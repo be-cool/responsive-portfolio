@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,48 +12,135 @@
 
 <body>
 
-                <div>
-                    <!-- trying to use this box to fill in the space to the left of where my name should be -->
-                    <!-- need to make a bigger container so that it can contain all of these divs within it to styalize it better and within one bar
+    <div>
+        <!-- trying to use this box to fill in the space to the left of where my name should be -->
+        <!-- need to make a bigger container so that it can contain all of these divs within it to styalize it better and within one bar
                     as of right now, they are on two different lines because they arent in that bigger, encompassing div -->
-                    <box class="header"> 
-                        <box class="myname">
-                            <h3>Ben Cooley</h3>
-                        </box>
-                        <!-- still need to figure out how to make the buttons not buttons, but on the tab -->
-                        <div class="tab">
-                            <button class="tablinks" onclick= "window.location.href = 'index.html'">About</button>
-                            <button class="tablinks" onclick= "window.location.href = 'portfolio.html'">Portfolio</button>
-                            <button class="tablinks" onclick= "window.location.href = 'contact.html'">Contact</button>
-                        </div>
-                    </box>
-                </div>
+        <box class="header" id="myHeader">
+            <box class="myname">
+                <h3>Ben Cooley</h3>
+            </box>
+            <!-- still need to figure out how to make the buttons not buttons, but on the tab -->
+            <div class="tab">
+                <button class="tablinks" onclick="window.location.href = 'index.html'">About</button>
+                <button class="tablinks" onclick="window.location.href = '#portfolio'">Portfolio</button>
+                <button class="tablinks" onclick="window.location.href = '#contact'">Contact</button>
+            </div>
+        </box>
+    </div>
 
     <div class="main">
         <!-- trying to make another box for the text and image section in middle of page here -->
         <box>
             <h2 class="title">About Me</h2>
-                <!-- <hr> -->
-                <img class="profile-pic" src= "assets/images/profile picture.jpeg" alt= "Ben Cooley">
-                    <p id="p-one"> 
-                        Welcome to my page! My name is Ben and I am a student at the Penn LPS Coding Bootcamp. I am new to coding, but am extremely excited to push myself throughout the course.
-                        I grew up in Abington, PA and currently live in the Fairmount area of Philadelphia. I attended the University of Pennsylvania and graduated in 2015 as a Cognitive Science Major.  
-                        Before enrolling in this course I spent my time in a few different jobs including with the 76ers organization, Northwestern Mutual and as a professional caddie on the Web.com Golf Tour.
-                        I am pumped for all of the opportunities and new career paths that this course will open up for me!
-                    </p>
-                    <p id="p-two">
-                        Although I am spending a lot of my free time focusing on this course, I am also very passionate about the game of golf - I still play a number of tournaments, when my schedule allows.
-                        While golf is the one sport I spend my time actually playing, I also spend a lot of time watching most sports. I have always been, and remain, a huge Philadelphia sports fan. Go Sixers!
-                        Another thing I am passionate about is pets - there was a brief time I thought about going to veterinary school. I spent a summer interning for the Penn Vet Working Dog Center -- in this very Pennovation Facility!!
-                    </p>
-                    <p id="p-three">
-                        Well that's enough about me - now I need to focus on the material so I can improve with all of this.
-                    </p>
+            <!-- <hr> -->
+            <img class="profile-pic" src="assets/images/profile picture.jpeg" alt="Ben Cooley">
+            <p id="p-one">
+                Welcome to my page! My name is Ben and I am a student at the Penn LPS Coding Bootcamp. I am new to
+                coding, but am extremely excited to push myself throughout the course.
+                I grew up in Abington, PA and currently live in the Fairmount area of Philadelphia. I attended the
+                University of Pennsylvania and graduated in 2015 as a Cognitive Science Major.
+                Before enrolling in this course I spent my time in a few different jobs including with the 76ers
+                organization, Northwestern Mutual and as a professional caddie on the Web.com Golf Tour.
+                I am pumped for all of the opportunities and new career paths that this course will open up for me!
+            </p>
+            <p id="p-two">
+                Although I am spending a lot of my free time focusing on this course, I am also very passionate about
+                the game of golf - I still play a number of tournaments, when my schedule allows.
+                While golf is the one sport I spend my time actually playing, I also spend a lot of time watching most
+                sports. I have always been, and remain, a huge Philadelphia sports fan. Go Sixers!
+                Another thing I am passionate about is pets - there was a brief time I thought about going to veterinary
+                school. I spent a summer interning for the Penn Vet Working Dog Center -- in this very Pennovation
+                Facility!!
+            </p>
+            <p id="p-three">
+                Well that's enough about me - now I need to focus on the material so I can improve with all of this.
+            </p>
         </box>
 
         <!-- <hr> -->
         <footer>copyright</footer>
     </div>
+    <br id="portfolio">
+    <br>
+
+
+    <div class="main">
+        <box>
+            <h2 class="title">Portfolio</h2>
+            <div class="pics">
+                <div class="row1">
+                    <div class="pic wggPic">
+                        <a href="https://be-cool.github.io/word-guess-game/">
+                            <h6>Word Guess Game (javascript intro)</h6>
+                        </a>
+                        <a href="https://be-cool.github.io/word-guess-game/"><img id="wgg"
+                                src="assets/images/hangman-style.png" alt="hangman"></a>
+                    </div>
+                    <div class="pic rpgPic">
+                        <a href="https://be-cool.github.io/train-scheduler/">
+                            <h6>Train Scheduler (firebase)</h6>
+                        </a>
+                        <a href="https://be-cool.github.io/train-scheduler/"><img id="train" src="assets/images/train.jpeg"
+                                alt="placeholder 2"></a>
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="pic pic3">
+                        <a href="https://be-cool.github.io/trivia-game/">
+                            <h6>Seinfeld Trivia Game (set timeouts)</h6>
+                        </a>
+                        <a href="https://be-cool.github.io/trivia-game/"><img id="seinfeld" src="assets/images/cast.jpg"
+                                alt="placeholder 3"></a>
+                    </div>
+                    <div class="pic pic4">
+                        <a href="https://be-cool.github.io/gif-homework/">
+                            <h6>Gif Searcher (api calls)</h6>
+                        </a>
+                        <a href="https://be-cool.github.io/gif-homework/"><img id="giphy" src="assets/images/giphy.png"
+                                alt="placeholder 4"></a>
+                    </div>
+                </div>
+                <div class="row3">
+                    <div class="pic pic5">
+                        <h6>Event Finder Project</h6>
+                        <a href="https://be-cool.github.io/group-project/"><img id="eventFinder"
+                                src="assets/images/EF.png" alt="placeholder 5"></a>
+                    </div>
+                </div>
+            </div>
+
+        </box>
+    </div>
+    <br>
+    <br>
+    <div class="main" id="contact">
+        <!-- trying to make another box for the text and image section in middle of page here -->
+        <box>
+            <h2 class="title">Contact</h2>
+            <div id="contactInfo">
+                <h4><a href="https://www.linkedin.com/in/ben-cooley-238171116/">My Linkedin</a></h4>
+                <h4>Email: <a href="mailto:bcooley58@gmail.com">bcooley58@gmail.com</a></h4>
+                <h4>Cell Phone: 267-257-4232</h4>
+                <h4>My Resume:</h4>
+            </div>
+        </box>
+    </div>
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 
 </html>
